@@ -16,6 +16,11 @@
 
 }
 
+h1.blog_title {
+    font-size: 3em;
+    font-family: 'ubuntu_monoregular';
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -40,10 +45,6 @@ a {
 a:hover {
     text-decoration: none;
     filter: brightness(50%);
-}
-
-.display_picture_link:hover {
-    text-decoration-style: none;
 }
 
 .display_picture {
