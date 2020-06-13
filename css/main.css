@@ -1,12 +1,20 @@
 @font-face {
     font-family: 'custom';
-    src: url('/css/fonts/housttelysignature-qzo4r-webfont.woff2') format('woff2'),
-         url('/css/fonts/housttelysignature-qzo4r-webfont.woff') format('woff');
+    src: url('/css/fonts/signature-font/housttelysignature-qzo4r-webfont.woff2') format('woff2'),
+         url('/css/fonts/signature-font/housttelysignature-qzo4r-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
+@font-face {
+    font-family: 'ubuntu_monoregular';
+    src: url('/css/fonts/ubuntu-font/ubuntumono-r-webfont.woff2') format('woff2'),
+         url('/css/fonts/ubuntu-font/ubuntumono-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
     margin: 60px auto;
@@ -30,7 +38,7 @@ a:hover {
     text-decoration: underline;
 }
 
-h1.name {
+h1.my_name {
     font-family: 'custom';
     font-size: 4em;
 }
@@ -39,7 +47,8 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
+p.about_me {
+    font-family: 'ubuntu_monoregular';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
