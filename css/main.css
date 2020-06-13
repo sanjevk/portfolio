@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'custom';
+    src: url('/css/fonts/housttelysignature-qzo4r-webfont.woff2') format('woff2'),
+         url('/css/fonts/housttelysignature-qzo4r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -19,6 +29,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+h1.name {
+    font-family: 'custom';
+    font-size: 4em;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
