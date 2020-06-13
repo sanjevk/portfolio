@@ -38,14 +38,18 @@ a:hover {
     text-decoration: underline;
 }
 
-.my_name:before{
-    content: "";
-    display: block;
-    background: url('/photos/avatar.JPG') no-repeat;
-    width: 25px;
-    height: 25px;
-    float: left;
-    border: 50%;
+.avatar {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  vertical-align: middle;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.avatar:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 h1.my_name {
