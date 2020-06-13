@@ -38,6 +38,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.my_name:before{
+    content: "";
+    display: block;
+    background: url('/photos/avatar.JPG') no-repeat;
+    width: 25px;
+    height: 25px;
+    float: left;
+    border: 50%;
+}
+
 h1.my_name {
     font-family: 'custom';
     font-size: 4em;
@@ -48,19 +58,6 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-.avatar {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-  vertical-align: middle;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.avatar:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
 
 p.about_me {
     font-family: 'ubuntu_monoregular';
