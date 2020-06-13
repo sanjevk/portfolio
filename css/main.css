@@ -42,6 +42,10 @@ a:hover {
     filter: brightness(50%);
 }
 
+.display_picture_link:hover {
+    text-decoration-style: none;
+}
+
 .display_picture {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -83,8 +87,11 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family: 'ubuntu_monoregular';
 }
 
 ul.posts li {
     list-style: none;
+    font-family: 'ubuntu_monoregular';
+    font-size: 1em;
 }
