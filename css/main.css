@@ -25,21 +25,21 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align: right;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
-    text-decoration: underline;
-}
 
-nav ul li, footer ul li:hover {
-  filter: brightness(150%);
+a:hover {
+    text-decoration: none;
+    filter: brightness(50%);
 }
 
 .avatar {
