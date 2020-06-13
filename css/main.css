@@ -47,7 +47,8 @@ a:hover {
   border-radius: 4px;
   padding: 5px;
   width: 120px;
-  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
   height: 120px;
   border-radius: 50%;
 }
@@ -59,6 +60,7 @@ a:hover {
 h1.my_name {
     font-family: 'custom';
     font-size: 4em;
+    text-align: right;
 }
 
 h1 {
