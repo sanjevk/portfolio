@@ -38,6 +38,10 @@ a:hover {
     text-decoration: underline;
 }
 
+nav ul li, footer ul li:hover {
+  filter: brightness(150%);
+}
+
 .avatar {
   border: 1px solid #ddd;
   border-radius: 4px;
