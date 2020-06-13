@@ -36,6 +36,10 @@ nav ul li, footer ul li {
     display: inline;
 }
 
+.align_center{
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: #999;
