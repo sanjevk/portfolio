@@ -16,10 +16,14 @@
 
 }
 
+.article_list {
+    font-family:'ubuntu_monoregular';
+    font-size: 2em;
+}
+
 h1.blog_title {
     font-family:'ubuntu_monoregular';
     font-size: 3em;
-    font-family: 'custom';
 }
 
 body {
