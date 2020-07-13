@@ -19,6 +19,7 @@
 h1.blog_title {
     font-family:'ubuntu_monoregular';
     font-size: 3em;
+    text-align: center;
 }
 
 body {
