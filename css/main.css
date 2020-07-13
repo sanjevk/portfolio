@@ -17,11 +17,13 @@
 }
 
 h1.blog_title {
+    font-family:'ubuntu_monoregular';
     font-size: 3em;
     font-family: 'custom';
 }
 
 body {
+    font-family:'ubuntu_monoregular';
     margin: 60px auto;
     width: 70%;
 }
@@ -67,14 +69,14 @@ a:hover {
 }
 
 h1.my_name {
-    font-family: 'custom';
+    font-family:'ubuntu_monoregular';
     font-size: 4em;
     text-align: center;
 }
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'ubuntu_monoregular', 'Arial', 'Sans-Serif';
 }
 
 
