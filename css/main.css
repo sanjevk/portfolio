@@ -18,6 +18,8 @@
 
 #particles-js {
     height: 100%;
+    background-size: cover;
+    width: 100%;
 }
 
 h1.blog_title {
@@ -32,7 +34,6 @@ body {
     width: 70%;
     background-image: linear-gradient(to right,rgb(76, 161, 175),rgb(196, 224, 229)); 
     background-size: cover;
-    opacity: 0.5;
 }
 nav ul, footer ul {
     font-family:'ubuntu_monoregular','Helvetica', 'Arial', 'Sans-Serif';
