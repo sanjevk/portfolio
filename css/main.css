@@ -16,6 +16,10 @@
 
 }
 
+#particles-js {
+    height: 100%;
+}
+
 h1.blog_title {
     font-family:'ubuntu_monoregular';
     font-size: 3em;
