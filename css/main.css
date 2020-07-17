@@ -30,8 +30,9 @@ body {
     font-family:'ubuntu_monoregular';
     margin: 60px auto;
     width: 70%;
-    background-image: linear-gradient(to right,rgb(67, 206, 162),rgb(24, 90, 157)); 
+    background-image: linear-gradient(to right,rgb(76, 161, 175),rgb(196, 224, 229)); 
     background-size: cover;
+    opacity: 0.5;
 }
 nav ul, footer ul {
     font-family:'ubuntu_monoregular','Helvetica', 'Arial', 'Sans-Serif';
