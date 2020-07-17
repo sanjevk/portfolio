@@ -19,6 +19,10 @@
 #particles-js {
     height: 100%;
     background-image: linear-gradient(to right,rgb(189,195,199),rgb(44,62,80));
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1.blog_title {
