@@ -4,24 +4,27 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+			<script src="/particles.js"></script>
+			<script src="/app.js"></script>
 		</head>
-		<body>
-			<div id="particles-js">
-				<script src="/particles.js"></script>
-				<script src="/app.js"></script>
-					<nav>
-						<ul>
-							<li><a href="/">HOME</a></li>
-							<li><a href="/about">ABOUT</a></li>
-							<li><a href="/cv">CV</a></li>
-							<li><a href="/blog">BLOG</a></li>
-						</ul>
-					</nav>
-						<div class="container">
-						
-						{{ content }}
-						
-						</div><!-- /.container -->
+		<body>				
+			<div class="my_data">
+				<nav>
+					<ul>
+						<li><a href="/">HOME</a></li>
+						<li><a href="/about">ABOUT</a></li>
+						<li><a href="/cv">CV</a></li>
+						<li><a href="/blog">BLOG</a></li>
+					</ul>
+				</nav>
+					<div class="container">
+					
+					{{ content }}
+					
+					</div><!-- /.container -->
 				<footer>
 					<ul>
 						<li><a href="mailto:kanagasalamsanjev@gmail.com">Email</a></li>
@@ -31,5 +34,6 @@
 					</ul>
 				</footer>
 			</div>
+			<div id="particles-js"></div>
 		</body>
 	</html>

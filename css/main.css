@@ -16,34 +16,35 @@
 
 }
 
-#particles-js {
-    height: 100%;
-    background-size: cover;
-    width: 100%;
-}
-
-h1.blog_title {
-    font-family:'ubuntu_monoregular';
+.page_title {
+    font-family:'Amatic SC', cursive;
     font-size: 3em;
     text-align: center;
+    font-weight: 500; 
+    color: #999;
 }
 
 body {
-    font-family:'ubuntu_monoregular';
+    font-family: 'Poppins', 'sans-serif';
     margin: 60px auto;
     width: 70%;
-    background-image: linear-gradient(to right,rgb(76, 161, 175),rgb(196, 224, 229)); 
+    background-image: linear-gradient(to right,rgb(43, 88, 118),rgb(78, 67, 118)); 
     background-size: cover;
 }
 nav ul, footer ul {
-    font-family:'ubuntu_monoregular','Helvetica', 'Arial', 'Sans-Serif';
-    padding: 10px;
-    list-style: none;
+  
+    font-family: 'Amatic SC', cursive;
+    list-style: inline;
     font-weight: bold;
     text-align: center;
+    font-weight: 500;
+    padding: 10px 25px;
 }
 nav ul li, footer ul li {
     display: inline;
+    padding: 10px 6px;
+    font-size: 2em;
+
 }
 
 .align_center{
@@ -57,7 +58,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    filter: brightness(50%);
+    filter: brightness(150%);
 }
 
 .display_picture {
@@ -77,22 +78,23 @@ a:hover {
 }
 
 h1.my_name {
-    font-family:'ubuntu_monoregular';
+    font-family: 'Amatic SC', cursive;
     font-size: 4em;
     text-align: center;
+    color: #999;
 }
 
 h1 {
     font-size: 3em;
-    font-family:'ubuntu_monoregular', 'Arial', 'Sans-Serif';
+    font-family:'Poppins', 'sans-serif', 'Arial', 'Sans-Serif';
 }
 
 
 p.about_me {
-    font-family: 'ubuntu_monoregular';
+    font-family: 'Neucha', cursive;
     font-size: 1.0em;
     line-height: 1.4em;
-    color: #333;
+    color: #999;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -102,11 +104,35 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    font-family: 'ubuntu_monoregular';
+    font-family: 'Neucha', cursive;
 }
 
 ul.posts li {
     list-style: none;
-    font-family: 'ubuntu_monoregular';
+    font-family: 'Neucha', cursive;
     font-size: 1em;
+}
+
+.entity {
+    font-family: 'Neucha', cursive;
+    color: #999;
+}
+
+.post_data {
+    font-family: 'Neucha', cursive;
+    color: #999;
+}
+
+.post_meta {
+    font-family: 'Neucha', cursive;
+    color: #999;
+}
+
+.blog_details_page_title {
+    font-family: 'Neucha', cursive;
+    color: #999;
+}
+
+.my_data {
+    z-index : 99999;
 }
