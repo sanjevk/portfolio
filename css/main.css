@@ -18,8 +18,7 @@
 
 #particles-js {
     height: 100%;
-    background-image: linear-gradient(to right,rgb(189,195,199),rgb(44,62,80));
-    /* Center and scale the image nicely */
+    background-image: linear-gradient(to right,rgb(0, 4, 40),rgb(0, 78, 146));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +33,7 @@ h1.blog_title {
 body {
     font-family:'ubuntu_monoregular';
     margin: 60px auto;
-    width: 70%;
+    width: 100%;
 }
 nav ul, footer ul {
     font-family:'ubuntu_monoregular','Helvetica', 'Arial', 'Sans-Serif';
