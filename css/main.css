@@ -29,7 +29,7 @@ h1.blog_title {
 body {
     font-family:'ubuntu_monoregular';
     margin: 60px auto;
-    width: 100%;
+    width: 70%;
     background-image: linear-gradient(to right,rgb(67, 206, 162),rgb(24, 90, 157)); 
     background-size: cover;
 }
