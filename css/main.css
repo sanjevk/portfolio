@@ -18,9 +18,7 @@
 
 #particles-js {
     height: 100%;
-    background-image: linear-gradient(to right,rgb(0, 4, 40),rgb(0, 78, 146));
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,rgb(67, 206, 162),rgb(24, 90, 157)) no-repeat center center fixed; 
     background-size: cover;
 }
 
